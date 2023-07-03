@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>PNG File Compression</title>
+  <script src="https://unpkg.com/image-compressor.js/dist/image-compressor.js"></script>
+  <script src="png.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>PNG File Compression</h1>
+  <input type="file" id="fileInput" accept="image/png">
+  <button onclick="compress()" id="Compress">Compress</button>
+  <button onclick="clearFile()" id="Delete">Delete</button>
+  <a href="#" id="downloadLink" style="display: none;">Download</a>
+</body>
+</html>
